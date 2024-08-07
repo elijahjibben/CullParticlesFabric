@@ -10,16 +10,15 @@ import tfar.cullparticles.Capture;
 
 @Mixin(WorldRenderer.class)
 public class MixinWorldRenderer implements Capture {
-
+	// Captures the games frustum (player's visibility) to be used to determine whether particles should be rendered or not.
 	@Unique private Frustum frustum;
-
 	@ModifyVariable(
 					method = "render",
 					at = @At(value = "INVOKE",
 									target = "net/minecraft/client/render/BackgroundRenderer.render(Lnet/minecraft/client/render/Camera;FLnet/minecraft/client/world/ClientWorld;IF)V")
 	)
 
-	private Frustum captureFrustrum(Frustum frustum2) {
+	private Frustum captureFrustum(Frustum frustum2) {
 		return frustum = frustum2;
 	}
 

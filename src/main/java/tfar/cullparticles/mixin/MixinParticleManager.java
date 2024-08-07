@@ -11,6 +11,7 @@ import tfar.cullparticles.MixinHooks;
 
 @Mixin(ParticleManager.class)
 public class MixinParticleManager {
+  // Redirects the game to use cullParticles rather than the default particle renderer.
   @Redirect(method = "renderParticles",
           at = @At(value = "INVOKE",
                   target = "net/minecraft/client/particle/Particle.buildGeometry(Lnet/minecraft/client/render/VertexConsumer;Lnet/minecraft/client/render/Camera;F)V"))
