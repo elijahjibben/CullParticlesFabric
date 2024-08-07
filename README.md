@@ -1,16 +1,13 @@
-# Fabric Example Mod
+# Cull Particles
 
-## Setup
+## Features
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
+This mod prevents the rendering of particles which the player cannot see. This can drastically improve performance when in scenarios where there are many particles near the player such as modern servers.
 
-```
-./gradlew idea
-```
+## History
+
+This is an updated and altered version of an old mod which can be found [here](https://github.com/Tfarcenim/CullParticlesFabric). This version will receive regular updates for new Minecraft versions and has been improved for compatibility.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Feel free to learn from it and incorporate it in your own projects.
