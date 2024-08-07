@@ -6,11 +6,12 @@
   "name": "Cull Particles",
   "description": "Don't render particles that can't be seen",
   "authors": [
-    "Me!"
+    "Tfarcenim",
+    "quikjay"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/cull-particles",
+    "sources": "https://github.com/elijahjibben/CullParticlesFabric"
   },
 
   "license": "CC0-1.0",
