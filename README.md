@@ -6,7 +6,7 @@ This mod prevents the rendering of particles which the player cannot see. This c
 
 ## History
 
-This is an updated and altered version of an old mod which can be found [here](https://github.com/Tfarcenim/CullParticlesFabric). This version will receive regular updates for new Minecraft versions and has been improved for compatibility.
+This is an updated and altered version of an abandoned mod which can be found [here](https://github.com/Tfarcenim/CullParticlesFabric). This version will receive regular updates for new Minecraft versions and has been improved for compatibility.
 
 ## License
 
